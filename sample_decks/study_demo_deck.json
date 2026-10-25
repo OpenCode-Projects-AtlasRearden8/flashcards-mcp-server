@@ -1,0 +1,30 @@
+{
+  "name": "Study Demo Deck",
+  "cards": [
+    {
+      "id": "exam_sample01",
+      "front": "Which programming language does the flashcards server use? Start with the letter P.",
+      "back": "Python (standard library only, no external dependencies)."
+    },
+    {
+      "id": "exam_sample02",
+      "front": "What MCP transport does flashcards_server.py speak?",
+      "back": "Stdio: line-delimited JSON-RPC 2.0 over stdin/stdout."
+    },
+    {
+      "id": "exam_sample03",
+      "front": "Where do custom flashcard decks get stored?",
+      "back": "In ./data/decks/<deck name>.json, with auto-backups in ./data/backups."
+    },
+    {
+      "id": "exam_sample04",
+      "front": "How do you re-draw the exact same shuffled quiz twice?",
+      "back": "Pass the same 'seed' string to draw_quiz; same seed gives the same order."
+    },
+    {
+      "id": "exam_sample05",
+      "front": "While studying, which tool shows answers without spoilers?",
+      "back": "draw_quiz hides answers server-side and reveal_answer shows one at a time."
+    }
+  ]
+}
